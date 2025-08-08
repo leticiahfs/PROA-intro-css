@@ -12,6 +12,7 @@
 
     <link rel="stylesheet" href="style.css">
 
+    <!-- <style> <footer> é um exemplo de estilo interno, ou seja, o CSS está dentro do HTML. O ideal é que o CSS seja sempre externo, mas para fins de estudo, este exemplo foi adicionado. -->
     <style>
         footer {
             background-color: rgb(246, 220, 191);
@@ -22,13 +23,18 @@
 
 <body>
 
+    <!-- <header> é um elemento semântico do HTML5 que indica o cabeçalho da página. Neste caso, o cabeçalho contém o título da página. o <header> pode conter outros elementos como logo, nav e outros. -->
     <header>
         <h1>EXEMPLO DE CSS EXTERNO</h1>
     </header>
 
+    <!-- <main> é um elemento semântico que indica o conteúdo principal da página. O conteúdo principal é aquele que é único para a página, ou seja, não se repete em outras páginas do site. Exemplo: uma página de produto, uma página de contato, uma página de blog, etc. Deve conter apenas um elemento <main> por página. -->
+    <!-- <section> é um elemento semântico que indica uma seção do conteúdo. Uma seção é um agrupamento de conteúdo relacionado. Exemplo: uma seção de notícias, uma seção de produtos, uma seção de serviços. Dentro da tag <section> pode conter outros elementos como h2, p, ul, ol, etc -->
     <main>
         <section>
             <h2>Entendendo como funciona o CSS Externo</h2>
+
+            <!-- class é um atributo que indica uma classe do elemento. A classe é usada para aplicar estilos ao elemento. O estilo é definido no arquivo CSS externo. . Neste caso, a classe "paragrafo-section" é usada para aplicar estilos aos parágrafos dentro da seção. A tag pode ser usada em qualquer elemento HTML, como div, span, p, h1, h2, etc... Quantas vezes quiser dentro do HTML. -->
             <p class="paragrafo-section">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa explicabo
                 temporibus tenetur aliquid maxime laboriosam enim soluta fugiat optio totam?</p>
 
@@ -39,6 +45,8 @@
             <p>Lorem ipsum dolor sit amet consectetur.</p>
         </section>
 
+        <!-- article é um elemento semântico que indica um artigo independente dentro do conteúdo. Um artigo é um conteúdo que pode ser distribuido de forma independente, como uma postagem de blog, notícia, etc. O artigo também pode conter outros elementos. Dentro da HTML a tag <article> pode ser usada quantas vezes quiser para agrupar conteúdos independentes. -->
+
         <article>
             <h2>Entendendo como funciona o CSS Externo</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum pariatur molestias, error quis officiis
@@ -48,6 +56,8 @@
 
     </main>
 
+    <!-- footer é um elemento semântico que indica o rodapé da página. Nele pode conter informações como direitos autorais, links para redes sociais, informações de contato, etc.
+     id é usado para aplicar estilos específicos a um elemento. O id deve ser único na página, ou seja, não pode ser usado em mais de uma elemento. Neste caso, o id "paragrafo-footer" é usado para aplicar estilos ao parágrafo dentro do rodapé. A tag <footer> pode ser usada apenas uma vez por página, pois indica o rodapé da página. -->
     <footer>
         <p id="paragrafo-footer">Direitos reservados</p>
     </footer>
