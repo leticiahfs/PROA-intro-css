@@ -1,5 +1,3 @@
 # Introdução ao CSS (Cascading Style Sheets)
 
-Aulas do PROAxSERASA para revisão
-
-"# PROA-intro-css" 
+Aulas do PROAxSERASA para revisão.
