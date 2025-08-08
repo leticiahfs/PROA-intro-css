@@ -1,12 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Conhecendo o CSS interno</title>
 
+    <!--CSS Interno - é aquele que é escrito dentro do documento HTML, entre as tags <style> no cabeçalho do documento. Ele é usado para aplicar  estilos a elementos específicos da página dentro do próprio arquivo HTML. Estilizar diretamento no HTML pode ser útil para projetos pequenos ou quando você deseja manter o estilo próximo ao conteúdo. Mas essa abordagem não recomendada para projetos maiores, pois pode dificultar a manutenção e a reutilização do códido CSS. Portanto, é mais comum usar CSS externo ou embutido para projetos maiores.-->
+
     <style>
-        /*Seletor tag*/
+        /*Seletor tag - seleciona todos os elementos de uma determinada tag HTML. { } - é onde colocamos as regras de estilo, como cor, tamanho, fonte, etc.*/
+        
         h1 {
             color: brown;
             text-align: center;
@@ -21,7 +24,7 @@
         h1 { 
             color: chocolate;
         }
-        /*Exemplo de cascata - A última regra é a que prevalece para o elemento selecionado*/
+        /*Exemplo de cascata - A última regra é a que prevalece para o elemento selecionado. A cascata é um conceito fundamental no CSS, se ouver várias regras aplicadas ao mesmo elemento, a última regra definida será a que será aplicada.*/
     </style>
 </head>
 <body>
