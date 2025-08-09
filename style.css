@@ -90,6 +90,23 @@ main section p{
     text-align: center;
 }
 
+/*O seletor abaixo está sendo usado para aplicar estilos específicos ao elemento h2. Neste caso, o seletor está sendo usado para aplicar uma borda ao elemento h2. A borda é uma linha que envolve todo o elemento, criando um destaque visual. A largura da borda é definida como 3px, o estilo da borda é definido como solid (sólida). Isso cria um efeito visual de destaque para o título da seção, tornando-o mais visível e separado do restante do conteúdo. 
+
+<padding-top:> padding-right, padding-bottom e padding-left são usados para adicionar espaçamento interno ao redor do elemento, no caso, h2. Isso ajuda a criar um espaço entre o título e o conteúdo abaixo dele, melhorando a legibilidade e a estética do Layout. 
+
+short-hand - atalho para definir a largura, altura, cor e estilo da borda de um elemento.*/
+
+section h2{
+    width: 200px;
+    padding:10px;
+
+    border: 3px solid black;
+
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+
 /* a ordem dos seletores importa. Mas este exemplo foi criado apenas para ilustrar o conceito de cascata. Na prática, é melhor evitar a repetição desnecessária de seletores para manter o código mais limpo e eficiente. A ordem importa pois o CSS é lido de cima para baixo, então o último estilo aplicado terá prioridade sobre os anteriores. Se houver estilos conflitantes, o estilo mais específico ou o último na ordem de leitura será aplicado. Na prática, comece estilizando os mais gerais e vá refinando com estilos mais específicos conforme o necessário. Isso ajuda a evitar conflitos e torna o código mais fácil de entender e manter.
 
 Conteúdo apenas para estudo e revisão.*/
